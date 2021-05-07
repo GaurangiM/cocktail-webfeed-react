@@ -1,7 +1,14 @@
-const FeedDetails = (props)=> {
+import './FeedDetails.css'
+
+const FeedDetails = ({ category, picture })=> {
     return (
         <div className="FeedDetails">
-            <h2>Details Page</h2>
+            <div className="feedPicture">
+                <img src={picture + '/preview'} alt="A cocktail"/>
+            </div>
+            <div >
+                <p>More Details</p>
+            </div>
         </div>
     )
 }
