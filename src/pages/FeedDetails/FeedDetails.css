@@ -1,0 +1,24 @@
+.FeedDetails img {
+    width: 90vh;
+    height: 90vh;
+    border-radius: 308px;
+}
+
+.ingredients {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+.ingredientList {
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}

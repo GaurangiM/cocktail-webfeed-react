@@ -1,8 +1,0 @@
-.FeedDetails {
-    border: 2px solid black;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-}

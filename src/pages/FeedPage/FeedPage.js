@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react'
-import FeedDetails from './FeedDetails'
+import FeedItem from '../../components/FeedItem'
 import  './FeedPage.css'
 
 const FeedPage = (props)=> {
@@ -23,7 +23,8 @@ const FeedPage = (props)=> {
                     <div>
                         {
                             feedData.map(feed=> {
-                                return <FeedDetails key={feed.idDrink}
+                                return <FeedItem key={feed.idDrink}
+                                                    id={feed.idDrink}
                                                     category={feed.strCategory}
                                                     picture={feed.strDrinkThumb}/>
                             })
