@@ -18,14 +18,14 @@ const FeedPage = (props)=> {
 
     return (
         <div className="FeedPage">
-            <h2>Feed Page</h2>
+            <h2>Have a look around these variety od cocktails and choose your favorite one !</h2>
             {feedData ? (
-                    <div>
+                    <div className="feedRender">
                         {
                             feedData.map(feed=> {
                                 return <FeedItem key={feed.idDrink}
                                                     id={feed.idDrink}
-                                                    category={feed.strCategory}
+                                                    name={feed.strDrink}
                                                     picture={feed.strDrinkThumb}/>
                             })
                         }

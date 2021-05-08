@@ -1,7 +1,6 @@
 .FeedItem {
-    border: 2px solid black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -16,5 +15,12 @@
     text-decoration: none;
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 10px;
+}
+
+.feedLink a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bolder;
 }

@@ -26,7 +26,7 @@ const FeedDetails = (props)=> {
     return (
         <div className="FeedDetails">
             {feedData ? 
-            (<div>
+            (<div className="feedImage">
                 <img src={feedData.strDrinkThumb} alt="Cocktail"/>
                 <div className="ingredientList">
                     {feedData.strIngredient1 && (

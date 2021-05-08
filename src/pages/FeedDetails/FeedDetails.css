@@ -1,7 +1,26 @@
-.FeedDetails img {
+.FeedDetails {
+    margin-top: 30px;
+    
+}
+
+.feedImage img {
     width: 90vh;
     height: 90vh;
     border-radius: 308px;
+    transition: all 0.3s;
+    transform: scale(1);
+    margin-bottom: 20px;
+}
+
+.feedImage {
+    position: relative;
+    overflow: hidden;
+    padding: 35px;
+}
+
+.feedImage:hover img {
+    transform: scale(1.1);
+    
 }
 
 .ingredients {
