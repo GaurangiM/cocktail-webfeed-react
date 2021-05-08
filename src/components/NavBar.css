@@ -1,0 +1,19 @@
+.NavBar {
+    background-color: black;
+    height: 40px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.NavBar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    height: 25px;
+}
+
+.NavBar a:hover {
+    background-color: white;
+    color: black;
+}
