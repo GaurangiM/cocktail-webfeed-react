@@ -22,7 +22,7 @@ const FeedDetails = (props)=> {
             }
         }
         fetchAPIData()
-    },[])
+    })
     return (
         <div className="FeedDetails">
             {feedData ? 

@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { Switch, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import FeedPage from './pages/FeedPage/FeedPage'
 import FeedDetails from './pages/FeedDetails/FeedDetails'
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
   return (
